@@ -369,7 +369,7 @@
     "ora": "^2.1.0",
     "os-browserify": "^0.3.0",
     "pako": "^1.0.11",
-    "parcel-bundler": "^1.12.4",
+    "parcel-bundler": "^1.12.5",
     "parse-asn1": "^5.1.6",
     "parse-json": "^4.0.0",
     "parse5": "^5.1.0",
