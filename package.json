@@ -4,7 +4,8 @@
   "description": "onlinewebsite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,6 @@
     "url": "https://github.com/ravichandrapalla/newWeb/issues"
   },
   "homepage": "https://github.com/ravichandrapalla/newWeb#readme",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5"
-  },
   "dependencies": {
     "abab": "^2.0.6",
     "acorn": "^7.4.1",
@@ -371,6 +369,7 @@
     "ora": "^2.1.0",
     "os-browserify": "^0.3.0",
     "pako": "^1.0.11",
+    "parcel-bundler": "^1.12.4",
     "parse-asn1": "^5.1.6",
     "parse-json": "^4.0.0",
     "parse5": "^5.1.0",
