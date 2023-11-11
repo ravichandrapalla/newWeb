@@ -42,6 +42,10 @@ body {
   color: var(--body-color);
 }
 
+.nav__item > a:hover {
+  color: var(--color-accent);
+}
+
 h1,
 h2,
 h3 {
@@ -125,7 +129,7 @@ a {
 }
 
 .badge--secondary {
-  background: var(--secondary-color);
+  background: var(--color-secondary);
   color: #fff;
 }
 
@@ -685,9 +689,9 @@ a {
   transition: color 0.3s;
 }
 
-.nav__item > a:hover {
+/* .nav__item > a:hover {
   color: #fff;
-}
+} */
 
 .nav__toggler {
   opacity: 0.5;
